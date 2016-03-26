@@ -3,7 +3,7 @@ libpng for iOS
 
 libpng for iOS provides a Xcode project, which compiles libpng (http://www.libpng.org/pub/png/libpng.html) to a Cocoa Touch Static Library.
 
-The current version uses libpng version 1.6.17.
+The current version uses libpng version 1.6.21.
 
 Building
 =========================
