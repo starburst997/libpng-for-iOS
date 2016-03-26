@@ -30,6 +30,7 @@
 		FA63931C1CA592F6004C7CE2 /* pngstruct.h in Headers */ = {isa = PBXBuildFile; fileRef = FA6392FC1CA59070004C7CE2 /* pngstruct.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		FA63931E1CA59349004C7CE2 /* pngconf.h in Headers */ = {isa = PBXBuildFile; fileRef = FA6392ED1CA59070004C7CE2 /* pngconf.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		FA63931F1CA59354004C7CE2 /* pngdebug.h in Headers */ = {isa = PBXBuildFile; fileRef = FA6392EE1CA59070004C7CE2 /* pngdebug.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		FADC6E361CA6D84300E2F5BD /* README.md in Sources */ = {isa = PBXBuildFile; fileRef = FADC6E351CA6D84300E2F5BD /* README.md */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -74,6 +75,7 @@
 		FA6393011CA59070004C7CE2 /* pngwrite.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = pngwrite.c; sourceTree = "<group>"; };
 		FA6393021CA59070004C7CE2 /* pngwtran.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = pngwtran.c; sourceTree = "<group>"; };
 		FA6393031CA59070004C7CE2 /* pngwutil.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = pngwutil.c; sourceTree = "<group>"; };
+		FADC6E351CA6D84300E2F5BD /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -90,6 +92,7 @@
 		FA6392D31CA5903D004C7CE2 = {
 			isa = PBXGroup;
 			children = (
+				FADC6E351CA6D84300E2F5BD /* README.md */,
 				FA6392DE1CA5903D004C7CE2 /* libpng */,
 				FA6392DD1CA5903D004C7CE2 /* Products */,
 			);
@@ -223,6 +226,7 @@
 				FA6393131CA59070004C7CE2 /* pngwutil.c in Sources */,
 				FA63930F1CA59070004C7CE2 /* pngtrans.c in Sources */,
 				FA6393081CA59070004C7CE2 /* pngpread.c in Sources */,
+				FADC6E361CA6D84300E2F5BD /* README.md in Sources */,
 				FA6393041CA59070004C7CE2 /* png.c in Sources */,
 				FA6393121CA59070004C7CE2 /* pngwtran.c in Sources */,
 				FA63930C1CA59070004C7CE2 /* pngrutil.c in Sources */,
