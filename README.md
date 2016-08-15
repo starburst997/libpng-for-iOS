@@ -9,4 +9,4 @@ Building
 =========================
 libpng itself requires zlib. This dependency is provided by OS X via the -lz linker flag (see Project -> Build Settings -> Other Linker Flags).
 
-libpng for iOS has been tested to work with Xcode 7.3.1
+libpng for iOS has been tested to work with Xcode 8.0
