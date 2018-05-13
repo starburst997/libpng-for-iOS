@@ -17,7 +17,6 @@
 		FA63930B1CA59070004C7CE2 /* pngrtran.c in Sources */ = {isa = PBXBuildFile; fileRef = FA6392F91CA59070004C7CE2 /* pngrtran.c */; };
 		FA63930C1CA59070004C7CE2 /* pngrutil.c in Sources */ = {isa = PBXBuildFile; fileRef = FA6392FA1CA59070004C7CE2 /* pngrutil.c */; };
 		FA63930D1CA59070004C7CE2 /* pngset.c in Sources */ = {isa = PBXBuildFile; fileRef = FA6392FB1CA59070004C7CE2 /* pngset.c */; };
-		FA63930E1CA59070004C7CE2 /* pngtest.c in Sources */ = {isa = PBXBuildFile; fileRef = FA6392FD1CA59070004C7CE2 /* pngtest.c */; };
 		FA63930F1CA59070004C7CE2 /* pngtrans.c in Sources */ = {isa = PBXBuildFile; fileRef = FA6392FF1CA59070004C7CE2 /* pngtrans.c */; };
 		FA6393101CA59070004C7CE2 /* pngwio.c in Sources */ = {isa = PBXBuildFile; fileRef = FA6393001CA59070004C7CE2 /* pngwio.c */; };
 		FA6393111CA59070004C7CE2 /* pngwrite.c in Sources */ = {isa = PBXBuildFile; fileRef = FA6393011CA59070004C7CE2 /* pngwrite.c */; };
@@ -229,7 +228,6 @@
 				FA6393121CA59070004C7CE2 /* pngwtran.c in Sources */,
 				FA63930C1CA59070004C7CE2 /* pngrutil.c in Sources */,
 				FA6393091CA59070004C7CE2 /* pngread.c in Sources */,
-				FA63930E1CA59070004C7CE2 /* pngtest.c in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -330,6 +328,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				EXECUTABLE_PREFIX = "";
+				GCC_PREPROCESSOR_DEFINITIONS = "PNG_ARM_NEON_OPT=0";
 				OTHER_LDFLAGS = "-lz";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SKIP_INSTALL = YES;
@@ -340,6 +339,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				EXECUTABLE_PREFIX = "";
+				GCC_PREPROCESSOR_DEFINITIONS = "PNG_ARM_NEON_OPT=0";
 				OTHER_LDFLAGS = "-lz";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SKIP_INSTALL = YES;
